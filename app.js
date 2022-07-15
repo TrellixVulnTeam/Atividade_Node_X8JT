@@ -153,7 +153,6 @@ app.use('/pagamento',router);
 app.use('/lista',router);
 app.use('/del-pagamento/:id',router);
 app.use('/edit-pagamento/:id',router);
- 
 app.use ('/usuario', router);
 app.use('/litas', router);
 app.use('/del-usuario/:id',router);
